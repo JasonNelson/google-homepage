@@ -1,0 +1,32 @@
+body {
+   margin:0;
+}
+
+.header {
+   
+}
+
+.logo_box {
+   position:relative;
+   margin-top:10%;
+   margin-left:30%;
+}
+
+.logo {
+   width:500px;
+}
+.searchbox {
+   position:relative;
+   margin-top:20px;
+   margin-left:25%;
+}
+
+.search_text {
+    width: 600px;
+    height: 30px;
+    color: black;
+}
+
+.footer {
+   
+}
