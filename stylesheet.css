@@ -1,32 +1,88 @@
+* {
+  margin:0 auto;
+  padding:0;
+  border: 1px dashed green;
+}
+
+div {
+  border: 1px dashed blue;
+}
+
 body {
-   margin:0;
+  margin:5px;
+  border: 1px dashed red;
 }
 
-.header {
-   
+a {
+  font-family: sans-serif;
+  text-decoration:none;
+  color:black;
 }
 
-.logo_box {
-   position:relative;
-   margin-top:10%;
-   margin-left:30%;
+#top_bar {
+  display: inline;
+  border:black solid 2px;
+  width:400px;
+
+}
+
+#middle {
+  border:black solid 2px;
+  height:800px;
+  width:100%;
+  clear:right;
+ 
+}
+
+#bottom_bar {
+  border:black solid 2px;
+  width:100%;
+  height:10%;
+  clear:both;
 }
 
 .logo {
-   width:500px;
+  position:relative;
+  left: 50%;
+  transform: translate(-50%);
+  width:400px;
+
 }
-.searchbox {
-   position:relative;
-   margin-top:20px;
-   margin-left:25%;
+
+.centered_all {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .search_text {
-    width: 600px;
-    height: 30px;
-    color: black;
+  width: 600px;
+  height: 30px;
+  color: black;
+
 }
 
-.footer {
-   
+#you_div{
+  float:right;
+  padding:10px 10px 7px 20px;
+  font-size:0.9em;
+}
+
+#gmail_div {
+  float:right;
+  padding:10px 10px 7px 20px;
+  font-size:0.9em;
+}
+  
+#images_vid {
+  float:right;
+  padding:10px 10px 7px 20px;
+  font-size:0.9em;
+}
+
+#signin_div {
+  float:right;
+  padding:10px 10px 7px 20px;
+  font-size:0.9em;
 }
